@@ -1,0 +1,46 @@
+#navigation {
+    white-space: nowrap; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: white;
+}
+#navigation::-webkit-scrollbar {
+    display: none;
+}
+.infol{
+    float:left;
+    font-size: 32px;
+    font-weight:bold;
+    color: white;
+}
+.infor{
+    float:right;
+    font-size: 28px;
+    opacity:0.7;
+    font-weight:bold;
+    color: white;
+}
+.dayBtn{
+    margin-top: 25px;
+    width:130px;
+    height:40px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color:#7028e4;
+    margin-left: 5px;
+    display: inline-block; 
+    margin-right: 12px;
+    font-size: 20px;
+    color: white;
+    font-weight:bold;
+}
+.dayBtn:active{
+    transform:scale(1.2,1);
+}
+.toggleDate{
+    font-size: 15px;
+    color:white;
+    margin-top: 5px;
+    margin-left: 5px;
+    opacity: 0.5;
+}

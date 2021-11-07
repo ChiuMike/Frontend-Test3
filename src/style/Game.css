@@ -1,0 +1,102 @@
+h2{
+    display: inline-block;
+}
+h3{
+    display: inline-block;
+    margin-left:150px;
+}
+#navigation {
+    white-space: nowrap; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: white;
+}
+#navigation::-webkit-scrollbar {
+    display: none;
+}
+.card1{
+    height:300px;
+    width:400px;
+    background:linear-gradient(to bottom, #7028e4 0%, #25242a 50%);
+    opacity:1;
+    border-radius: 10px;
+    margin-top:5px;
+    display: inline-block; 
+    margin-right: 12px;
+    margin-left: 5px;
+}
+.cardheader{
+    margin-left: 10px;
+}
+img{
+    height: 70px;
+    display:block;
+}
+.teamphoto{
+    float: left;
+}
+.team{
+    position:relative; 
+}
+.teaminfo{
+    position: absolute;
+    top:40%;
+    left:20%;
+}
+.team:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.score{
+    display:inline-block;
+    font-weight: bold;
+}
+button{
+    display: inline-block;
+    height:40px;
+    width: 180px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.info{
+    color: white;
+    font-weight: bold;
+    background-color:rgba(147,147,147,0.2);
+    margin-left: 15px;
+    font-size:20px;
+    margin-top: 10px;
+}
+.info:active {
+    transform:scale(1.2,1);
+}
+.ticket{
+    font-weight: bold;
+    margin-left: 10px;
+    background-color:red;
+    color: white;
+    font-size:20px;
+    margin-top: 10px;
+}
+.ticket:active {
+    transform:scale(1.2,1);
+}
+.name{
+    font-size:20px;
+    vertical-align:top;
+
+}
+.score{
+    font-weight: bold;
+    position:absolute;
+    font-size:20px;
+    top:40%;
+    left:85%;
+}
+/* style={{fontSize:'60px',marginTop:'20px',color:'white'}} */
+.toggle{
+    font-size: 60px;
+    margin-top:20px;
+    color:white;
+    opacity: 0.5;
+}
